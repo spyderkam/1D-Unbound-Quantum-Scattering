@@ -19,7 +19,7 @@
   $0.01328$ | $5.0$
 
 
-<null>
+<br>
 $\mathrm{\underline{The Solution:}}$ <br>
 Using experimentally obtained energies and reflection coefficients, one can computationally find the potentials corresponding to each $R$ and $E$.
   
