@@ -1,10 +1,9 @@
 # One-Dimensional Quantum Scattering; Unbound Particles
 **The table below shows the dependence of the reflection coefficients on scattering energy. Determine the one-dimensional scattering potential. Use $m=1=\hbar$.**
 
-    \centering
-    \begin{tabular}{c c c c c c c}
-      $R$ & & & $V$ & & & $E$ \\
-     \hline\hline
+\begin{tabular}{c c c c c c c}
+$R$ & & & $V$ & & & $E$ \\
+\hline\hline
      1.00000 & && 1.80000 & && 1.8 \\
      1.00000 & && 1.90000 & && 1.9 \\
      1.00000 & && 2.00000 & && 2.0 \\ 
