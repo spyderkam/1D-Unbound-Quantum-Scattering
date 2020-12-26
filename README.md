@@ -1,4 +1,7 @@
 # One-Dimensional Quantum Scattering; Unbound Particles
+
+Please have *MathJax Plugin for Github* Chrome extenstion or similiar turned on to view $\LaTeX$.
+
 ## The Problem
 **The table below shows the dependence of the reflection coefficients on scattering energy. Determine the one-dimensional scattering potential. Use $m=1=\hbar$.**
 
