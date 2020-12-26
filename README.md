@@ -54,4 +54,4 @@ $\hphantom{++}$[1] [https://docs.scipy.org/doc/scipy/reference/generated/scipy.o
 
 ## Notes
 - The Julia script does not include the curve fitting at this time.
-- The Python 3 script includes to full solution.
+- The Python 3 script does include the full solution.
