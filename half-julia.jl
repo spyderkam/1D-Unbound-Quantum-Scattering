@@ -10,6 +10,7 @@ K1(E) = sqrt(2*m*E / ħ)
 K2(k1, R) = k1*((1-sqrt(R))/(1+sqrt(R)))
 V0(E, k2) = E - (ħ*k2)^2/(2*m)
 
+# importing the experimental data
 file = readdlm("path/to/scat.txt")
 E = file[:, 1]
 R = file[:, 2]
