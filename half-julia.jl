@@ -22,17 +22,17 @@ for i in eachindex(E)
     append!(V, V0(E[i], K2(k1[i], R[i])))
 end
 
-T = []
+T = []      # initialize transmission coefficient
 for r in R
     append!(T, 1 - r)
 end
 
 
-# now plotting
-um = [0, 1]
-ok = [1, 1]
+# preparing & plotting
+fake_point_1 = [0, 1]     # R is obviously always one before E = 2.0
+fake_point_2 = [1, 1]     # so get creative ^_^
 
-plot(um , ok, color="blue")
+plot(fake_point_1 , fake_point_2, color="blue")
 plot!(E ./ V, R, color="blue", left_margin=4mm)
 plot_ref = plot!(E ./ V, T, color="red", legend=false, grid="off")
 #savefig(plot_ref, "bounded_V.pdf")
