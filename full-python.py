@@ -9,11 +9,11 @@ from scipy.optimize import curve_fit
 ħ, m = 1, 1
 
 # the functions
-def K1(E):         # k1 function
+def K1(E):  
     return np.sqrt(2*m*E / ħ)
-def K2(k1, R):     # k2 function
+def K2(k1, R):  
     return k1*((1-np.sqrt(R))/(1+np.sqrt(R)))
-def V0(E, k2):     # V_0 function
+def V0(E, k2):   
     return E - (ħ*k2)**2/(2*m)
 
 # formatting to layer print full table including R, V, and E
