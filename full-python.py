@@ -74,7 +74,7 @@ plt.tight_layout()
 plt.show()
 
 print("PARAMETERS:")
-print('   a =', '%0.3f' % popt[0], '±', "%.3f" % pcov[0,0]**0.5)     #THE 2ND HALF IS CODE FOR CALCULATING FIT UNCERTAINTY
+print('   a =', '%0.3f' % popt[0], '±', "%.3f" % pcov[0,0]**0.5)     # THE 2ND HALF IS CODE FOR CALCULATING FIT UNCERTAINTY
 print('   b =', "%0.3f" % popt[1], '±', "%.3f" % pcov[1,1]**0.5)
 print('   c =', "%0.3f" % popt[2], '±', "%.3f" % pcov[2,2]**0.5)
 print('   d =', "%0.3f" % popt[3], '±', "%.3f" % pcov[3,3]**0.5)
