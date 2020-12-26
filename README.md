@@ -39,3 +39,5 @@ It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2
         return a*x**3 + b*x**2 + c*x + d
     
     popt, pcov = curve_fit(func, x, V)
+
+and the $\texttt{func(x, *popt)}$ is the ydata to plot with $x$.
