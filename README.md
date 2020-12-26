@@ -34,7 +34,8 @@ After all the potentials have been found, assume equal position spaceing between
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1-1.png" alt="alt text" width="625" height="400">
 
 It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2 + cx + d$; I used Python's $\texttt{curve_fit}$ method from the $\texttt{scipy.optimize}$ library. This method uses non-linear least squares to fit a function [1].
-     def func(x, a, b, c, d):
-       return a*x**3 + b*x**2 + c*x + d
+      
+    def func(x, a, b, c, d):
+      return a*x**3 + b*x**2 + c*x + d
     
-     popt, pcov = curve_fit(func, x, V)
+    popt, pcov = curve_fit(func, x, V)
