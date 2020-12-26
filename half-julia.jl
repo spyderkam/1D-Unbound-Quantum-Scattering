@@ -38,4 +38,3 @@ plot(fake_point_1 , fake_point_2, color="blue")
 plot!(E ./ V, R, color="blue", left_margin=4mm)
 plot_ref = plot!(E ./ V, T, color="red", legend=false, grid="off")
 #savefig(plot_ref, "bounded_V.pdf")
-o
