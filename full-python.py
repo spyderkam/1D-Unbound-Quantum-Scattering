@@ -20,7 +20,7 @@ fmt = '{:<1} {:<8} {:<12} {:<12} {:<8}'
 print(fmt.format('', 'i', 'R', 'V', 'E'))     # for printing later in this cell
 print('__________________________________________')
 
-scatter = os.path.join(os.sep, 'path', 'to', 'scat.txt')     # put scat.txt in home directory to avoid typyin path; i.e. just os.path.join(os.sep, 'scat.txt')
+scatter = os.path.join(os.sep, 'path', 'to', 'scat.txt')     # put scat.txt in home directory to avoid typing path; i.e. just os.path.join(os.sep, 'scat.txt')
 scatter = np.loadtxt(scatter)
 E = scatter[:, 0]
 R = scatter[:, 1]
