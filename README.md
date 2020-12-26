@@ -20,6 +20,6 @@
   $0.01328$ | $5.0$
   
 ## The Solution
-Using experimentally obtained energies and reflection coefficients, one can computationally find the potentials corresponding to each $R$ and $E$.
+Using the energies and reflection coefficients above, one can find the potentials corresponding to each $R$ and $E$ using the step by step computational procedure below. 
   
   
