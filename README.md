@@ -47,4 +47,6 @@ So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
 Without the even spacing assumption this may very well resemble a step function.
 <null>
   <br>
+  <null>
+    <br>
 ## References
