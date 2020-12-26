@@ -32,7 +32,7 @@ end
 
 # preparing & plotting
 ## plot R and T(=1-R) vs E/V to confirm scattering is unbounded
-fake_point_1 = [0, 1]     # R is obviously always 1 before E = 2...
+fake_point_1 = [0, 1]     # R is obviously always 1 before E=2...
 fake_point_2 = [1, 1]     # ...so get creative ^_^
 
 plot(fake_point_1 , fake_point_2, color="blue")
