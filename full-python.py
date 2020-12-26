@@ -16,7 +16,7 @@ def K2(k1, R):     # k2 function
 def V0(E, k2):     # V_0 function
     return E - (ħ*k2)**2/(2*m)
 
-# formatting to print full table
+# formatting to layer print full table including R, V, and E
 fmt = '{:<1} {:<8} {:<12} {:<12} {:<8}'
 print(fmt.format('', 'i', 'R', 'V', 'E'))     # for printing later in this cell
 print('__________________________________________')
