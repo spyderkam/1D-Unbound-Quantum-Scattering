@@ -12,7 +12,7 @@ K2(k1, R) = k1*((1-sqrt(R))/(1+sqrt(R)))
 V0(E, k2) = E - (ħ*k2)^2/(2*m)
 
 # importing the experimental data
-file = readdlm("path/to/scat.txt")
+file = readdlm("path/to/scat.txt")     # put scat.txt in home directory to avoid typing path; i.e. just readdlm("scat.txt")
 E = file[:, 1]
 R = file[:, 2]
 
