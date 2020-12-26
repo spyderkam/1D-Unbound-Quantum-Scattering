@@ -50,4 +50,4 @@ Without the even spacing assumption this may very well resemble a step function.
   <null>
     <br>
 ## References
-<br /> [1]
+$\hphantom{++}$ [1]
