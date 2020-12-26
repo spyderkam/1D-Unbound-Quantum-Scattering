@@ -16,9 +16,9 @@ def K2(k1, R):
 def V0(E, k2):   
     return E - (ħ*k2)**2/(2*m)
 
-# formatting to layer print full table including R, V, and E
+# formatting to later print full table which including R, V, and E
 fmt = '{:<1} {:<8} {:<12} {:<12} {:<8}'
-print(fmt.format('', 'i', 'R', 'V', 'E'))     # for printing later in this cell
+print(fmt.format('', 'i', 'R', 'V', 'E'))     # prepare the table header
 print('__________________________________________')
 
 # importing the experimental data
@@ -34,7 +34,7 @@ for ii in enumerate(E):
     i = ii[0]     # because why not
     k1.append( K1(E[i]) )
     V.append( V0(E[i], K2(k1[i], R[i])) )
-    print(fmt.format('', i, R[i], '%0.5f' % V[i], E[i]))     # print table including R, V, and E
+    print(fmt.format('', i, R[i], '%0.5f' % V[i], E[i]))     # print the aformentioned table
    
 
 # preparing & plotting
