@@ -2,7 +2,6 @@
 **The table below shows the dependence of the reflection coefficients on scattering energy. Determine the one-dimensional scattering potential. Use $m=1=\hbar$.**
 
 <p align="center">
-  
   |  $R$ |  $E$  |
   :---: | :---:
   $1.00000$ | $1.8$
