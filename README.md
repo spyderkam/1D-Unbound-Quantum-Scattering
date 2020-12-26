@@ -40,4 +40,4 @@ It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2
     
     popt, pcov = curve_fit(func, x, V)
 
-So then, $\texttt{func(x, *popt)}$ is the ydata to plot with $x$.
+So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
