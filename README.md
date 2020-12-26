@@ -1,2 +1,2 @@
 # One-Dimensional Quantum Scattering; Unbound Particles
-Scattering potential computed from experimentally obtained energy and reflection coefficients.
+Scattering potential fitted computationally using experimentally obtained energy and reflection coefficients.
