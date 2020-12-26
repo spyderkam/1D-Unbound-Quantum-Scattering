@@ -55,7 +55,7 @@ red_line = mlines.Line2D([], [], color='red',
 plt.legend(handles=[blue_line, red_line])
 plt.show()     
 
-## confirmed; now get rid of all V's corresponding R=1 for beter fit
+## now get rid of all V's corresponding R=1 for beter fit
 for i in range(3):
     V.pop(0)
     
