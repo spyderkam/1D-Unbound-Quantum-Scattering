@@ -32,5 +32,4 @@ Using the energies and reflection coefficients above, the potentials $V$ corresp
 
 After all the potentials have been found, assume equal position spaceing between measurements. With this assumption plot out $V$ vs $x$.
 
-![Screenshot](https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1.png)
-![Screenshot2](https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1-1.png)
+![Vvsx](https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1-1.png)
