@@ -32,4 +32,4 @@ Using the energies and reflection coefficients above, the potentials $V$ corresp
 
 After all the potentials have been found, assume equal position spaceing between measurements. With this assumption plot out $V$ vs $x$.
 
-![Screenshot](fig1.pdf)
+![Plot](fig1.pdf)
