@@ -6,6 +6,7 @@ using DelimitedFiles
 
 ħ, m = 1, 1
 
+# the functions
 K1(E) = sqrt(2*m*E / ħ)
 K2(k1, R) = k1*((1-sqrt(R))/(1+sqrt(R)))
 V0(E, k2) = E - (ħ*k2)^2/(2*m)
@@ -15,6 +16,7 @@ file = readdlm("path/to/scat.txt")
 E = file[:, 1]
 R = file[:, 2]
 
+# 1) create k1  2) use k1 to obtain k2  3) use k2 to obtain V
 k1 = []     # initialize k1
 V = []      # initialize V
 for i in eachindex(E)
