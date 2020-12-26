@@ -43,4 +43,5 @@ It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2
 
 So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/Fig2.png" alt="alt text" width="625" height="400">
+
 Without the even spacing assumption this may very well resemble a step function.
