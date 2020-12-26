@@ -50,4 +50,4 @@ Without the even spacing assumption this may very well resemble a step function.
   <null>
     <br>
 ## References
-$\hphantom{++}$[1]
+$\hphantom{++}$[1] [https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
