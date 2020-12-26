@@ -28,6 +28,9 @@ end
 
 
 # now plotting
+um = [0, 1]
+ok = [1, 1]
+
 plot(um , ok, color="blue")
 plot!(E ./ V, R, color="blue", left_margin=4mm)
 plot_ref = plot!(E ./ V, T, color="red", legend=false, grid="off")
