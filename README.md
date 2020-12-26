@@ -22,6 +22,7 @@
 ## The Solution
 Using the energies and reflection coefficients above, the potentials $V$ corresponding to each $R$ and $E$ can be found using the step by step computational procedure below. 
 \begin{align} 
-ok <br>
+ok <null>
+  <br>
 ok
 \end{align}
