@@ -51,3 +51,7 @@ Without the even spacing assumption this may very well resemble a step function.
     <br>
 ## References
 $\hphantom{++}$[1] [https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
+
+## Notes
+- The Julia script does not include the curve fitting at this time.
+- The Python 3 script includes to full solution.
