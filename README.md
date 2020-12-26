@@ -42,4 +42,4 @@ It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2
     popt, pcov = curve_fit(func, x, V)
 
 So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
-<img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig2.png" alt="alt text" width="625" height="400">
+<img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/Fig2.png" alt="alt text" width="625" height="400">
