@@ -18,9 +18,6 @@
   $0.01626$ | $4.8$
   $0.01469$ | $4.9$
   $0.01328$ | $5.0$
-
-<null>
-  <br>
   
 ## The Solution
 Using experimentally obtained energies and reflection coefficients, one can computationally find the potentials corresponding to each $R$ and $E$.
