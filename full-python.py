@@ -33,11 +33,11 @@ for ii in enumerate(E):
     V.append( V0(E[i], K2(k1[i], R[i])) )
     print(fmt.format('', i, R[i], '%0.5f' % V[i], E[i]))
     
- um = (0, 1)
-ok = (1, 1)
-# um and ok are obvious. use brain...
+    
+fake_point_1 = (0, 1)     # R is obviously always 1 before E = 2.0
+fake_point_2 = (1, 1)     # so get creative ^_^
 
-plt.plot(E/V, R, um, ok, color='blue')
+plt.plot(E/V, R, fake_point_1, fake_point_2, color='blue')
 plt.plot(E/V, 1-R, color='red')
 
 
