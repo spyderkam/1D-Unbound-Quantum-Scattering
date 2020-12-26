@@ -16,7 +16,7 @@ file = readdlm("path/to/scat.txt")
 E = file[:, 1]
 R = file[:, 2]
 
-# 1) create k1  2) use k1 to obtain k2  3) use k2 to obtain V
+# 1) obtain k1  2) use k1 to obtain k2  3) use k2 to obtain V
 k1 = []     # initialize k1
 V = []      # initialize V
 for i in eachindex(E)
