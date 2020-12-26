@@ -11,8 +11,8 @@ K2(k1, R) = k1*((1-sqrt(R))/(1+sqrt(R)))
 V0(E, k2) = E - (ħ*k2)^2/(2*m)
 
 file = readdlm("path/to/scat.txt")
-R = file[:, 1]
-E = file[:, 2]
+E = file[:, 1]
+R = file[:, 2]
 
 k1 = []     # initialize k1
 V = []      # initialize V
