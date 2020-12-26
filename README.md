@@ -30,7 +30,7 @@ Using the energies and reflection coefficients above, the potentials $V$ corresp
   &V = E - \frac{\left(\hbar k_2\right)^2}{2m}
 \end{align}
 
-After all the potentials have been found, assume equal position spaceing between measurements. With this assumption plot out $V$ vs $x$.
+After all the potentials have been found, assume equal position spacing between measurements, plot $V$ vs $x$.
 <null>
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1-1.png" alt="alt text" width="625" height="400">
 
