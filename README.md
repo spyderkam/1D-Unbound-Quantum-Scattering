@@ -23,5 +23,6 @@
 Using the energies and reflection coefficients above, the potentials $V$ corresponding to each $R$ and $E$ can be found using the step by step computational procedure below. 
 \begin{align} 
   &k_1 = \sqrt{ \frac{2mE}{\hbar} }  \\\\\\
-  &k_2 = k_1 \left( \frac{1-\sqrt{R}}{1+\sqrt{R}} \right)
+  &k_2 = k_1 \left( \frac{1-\sqrt{R}}{1+\sqrt{R}} \right) \\\\\\
+  &V = E - \frac{\left(\hbar k_2\right)^2}{2m}
 \end{align}
