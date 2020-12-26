@@ -32,7 +32,7 @@ Using the energies and reflection coefficients above, the potentials $V$ corresp
 
 After all the potentials have been found, assume equal position spacing between measurements; plot $V$ vs $x$.
 <null>
-<img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1-1.png" alt="alt text" width="625" height="400">
+<img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig1.png" alt="alt text" width="625" height="400">
 
 It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2 + cx + d$; I used Python's $\texttt{curve_fit}$ method from the $\texttt{scipy.optimize}$ library. This method uses non-linear least squares to fit a function [1].
       
@@ -42,3 +42,4 @@ It appears to be some polynomial function. Try curve fitting $V(x) = ax^3 + bx^2
     popt, pcov = curve_fit(func, x, V)
 
 So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
+<img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/fig2.png" alt="alt text" width="625" height="400">
