@@ -1,7 +1,8 @@
 # One-Dimensional Quantum Scattering; Unbound Particles
 **The table below shows the dependence of the reflection coefficients on scattering energy. Determine the one-dimensional scattering potential. Use $m=1=\hbar$.**
 
-<center>| $R$ |  $E$  |<\center>
+<p align="center">
+|  $R$ |  $E$  |
 :---: | :---:
 $1.00000$ | $1.8$
 $1.00000$ | $1.9$
@@ -17,7 +18,7 @@ $\vdots$ | $\vdots$
 $0.01626$ | $4.8$
 $0.01469$ | $4.9$
 $0.01328$ | $5.0$
-
+</p>
 
 
 
@@ -27,4 +28,3 @@ $\mathrm{\underline{The Solution:}}$ <br>
 Using experimentally obtained energies and reflection coefficients, one can computationally find the potentials corresponding to each $R$ and $E$.
   
   
-<center> boom
