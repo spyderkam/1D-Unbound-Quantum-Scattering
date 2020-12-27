@@ -44,7 +44,15 @@ It appears to be some polynomial function. Try fitting $V(x) = ax^3 + bx^2 + cx 
 So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/Fig2.png" alt="alt text" width="625" height="400">
 
-Without the even spacing assumption this may very well resemble a step function.
+So a proper potential to fit the experimental data is:
+\begin{equation}
+  V = \begin{cases}
+    V(x) \quad xxx \leq x \geq yyy \\\\\\
+    0\hphantom{(x)} \quad \text{otherwise}
+  \end{cases}
+\end{equation}
+
+
 <null>
   <br>
   <null>
