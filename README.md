@@ -57,6 +57,7 @@ So a proper potential to fit the experimental data is:
   <br>
   <null>
     <br>
+    
 ## References
 $\hphantom{++}$[1] [https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
 
