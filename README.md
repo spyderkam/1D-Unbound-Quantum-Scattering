@@ -47,7 +47,7 @@ So then, $\texttt{func(x, *popt)}$ is the ydata to plot against $x$.
 So a proper potential to fit the experimental data is:
 \begin{equation}
   V = \begin{cases}
-    V(x) \quad xxx \leq x \geq yyy \\\\\\
+    V(x) \quad xxx \leq x \leq yyy \\\\\\
     0\hphantom{(x)} \quad \text{otherwise}
   \end{cases}
 \end{equation}
