@@ -48,7 +48,7 @@ So a proper potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
     ax^3 +bx^2+cx +d \qquad xxx \leq x \leq yyy \\\\\\
-    \!0\hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
+    0 \hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
 
