@@ -36,8 +36,8 @@ After all the potentials have been found, assume equal position spacing between 
 
 It appears to be some polynomial function. Try fitting $V(x) = ax^3 + bx^2 + cx + d$; I used Python's `curve_fit` method from the SciPy `optimize` library. This method uses non-linear least squares to fit a function [1].
       
-    def func(x, a, b, c, d):
-        return a*x**3 + b*x**2 + c*x + d
+    def func(x, a, b, c, d, l, m, n):
+        return a*x**6 + b*x**5 + c*x**4 + d*x**3 + l*x**2 + m*x + n
     
     popt, pcov = curve_fit(func, x, V)
 
