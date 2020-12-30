@@ -49,7 +49,7 @@ So a proper potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
     ax^6 +bx^5+cx^4 +dx^3 +lx^2 + mx + n \qquad 0 \leq x \leq 1 \\\\\\
-    \\\!{1.8} \hphantom{l+bx^5+cx^4 +dx^3 +lx^2 + mx + n} \qquad \text{otherwise}
+    \\\!{1.8} \hphantom{.+bx^5+cx^4 +dx^3 +lx^2 + mx + n} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
 
