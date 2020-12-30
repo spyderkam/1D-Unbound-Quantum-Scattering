@@ -47,10 +47,11 @@ So then, `func(x, *popt)` is the ydata to plot against $x$.
 So a proper potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
-    ax^3 +bx^2+cx +d \qquad xxx \leq x \leq yyy \\\\\\
+    ax^3 +bx^2+cx +d \qquad 0 \leq x \leq 1 \\\\\\
     \\\!{0} \hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
+The steep curve of $V(x)\neq 0$ perhaps somewhat causes $V(x)$ to resemble a step function.
 
 
 <null>
