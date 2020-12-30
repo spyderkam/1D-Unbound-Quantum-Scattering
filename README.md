@@ -45,10 +45,10 @@ It appears to be some polynomial function. Try fitting $V(x) = ax^3 + bx^2 + cx 
 
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/Fig2.png" alt="alt text" width="625" height="400">
 
-So a proper potential to fit the experimental data is:
+So a proper approximate potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
-    ax^6 +bx^5+cx^4 +dx^3 +lx^2 + mx + n \qquad 0 \leq x \lessapprox 1 \\\\\\
+    ax^6 +bx^5+cx^4 +dx^3 +lx^2 + mx + n \qquad 0 \leq x \leq 1 \\\\\\
     \\\!{1.8} \hphantom{l+bx^5+cx^4 +dx^3 +lx^2 + mx + n} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
