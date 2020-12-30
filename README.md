@@ -48,7 +48,7 @@ It appears to be some polynomial function. Try fitting $V(x) = ax^3 + bx^2 + cx 
 So a proper potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
-    ax^6 +bx^5+cx^4 +dx^3 +lx^2 + mx + n \qquad 0 \leq x \leq 1 \\\\\\
+    ax^6 +bx^5+cx^4 +dx^3 +lx^2 + mx + n \qquad 0 \leq x \lessapprox 1 \\\\\\
     \\\!{1.8} \hphantom{l+bx^5+cx^4 +dx^3 +lx^2 + mx + n} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
