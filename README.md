@@ -63,6 +63,6 @@ So a proper approximate potential to fit the experimental data is:
 $\hphantom{++}$[1] [https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html).
 
 ## Notes
-- IMPORTANT: This is result is the same as the [solution of Schrödinger equation for a step potential](solution of Schrödinger equation for a step potential).
+- IMPORTANT: This is result is the same as the [solution of Schrödinger equation for a step potential](https://en.wikipedia.org/wiki/Solution_of_Schr%C3%B6dinger_equation_for_a_step_potential).
 - The Julia script does not include the curve fitting at this time.
 - The Python 3 script does include the full solution.
