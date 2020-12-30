@@ -55,26 +55,25 @@ red_line = mlines.Line2D([], [], color='red',
 plt.legend(handles=[blue_line, red_line])
 plt.show()     
 
-## OPTIONAL: now get rid of all V's corresponding R=1 for beter fit (it may be better to not include lines 59 & 60)
-for i in range(3):
-    V.pop(0)
-    
 x = np.linspace(0, 1, len(V))     # even spacing number of x's between 0 and 1 equal to the length of the V array
 plt.scatter(x, V, color='violet')
 
-def func(x, a, b, c, d):
-    return a*x**3 + b*x**2 + c*x + d
+def func(x, a, b, c, d, l, m, n):
+    return a*x**6 + b*x**5 + c*x**4 + d*x**3 + l*x**2 + m*x + n
     
 popt, pcov = curve_fit(func, x, V)
 plt.plot(x, func(x, *popt), 'r-', color='dodgerblue')
 
-plt.ylabel(r'$V(x)=ax^3+bx^2+cx+d$', fontsize=13)
-plt.xlabel(r"$x$", fontsize=13)
+plt.ylabel(r'$V(x)$', fontsize=17) #change to just r"$V$"
+plt.xlabel(r"$x$", fontsize=17)
 plt.tight_layout()
 plt.show()
 
 print("PARAMETERS:")
-print('   a =', '%0.3f' % popt[0], '±', "%.3f" % pcov[0,0]**0.5)     # THE 2ND HALF IS CODE FOR CALCULATING FIT UNCERTAINTY
+print('   a =', '%0.3f' % popt[0], '±', "%.3f" % pcov[0,0]**0.5) #THE 2ND HALF IS CODE FOR CALCULATING FIT UNCERTAINTY
 print('   b =', "%0.3f" % popt[1], '±', "%.3f" % pcov[1,1]**0.5)
 print('   c =', "%0.3f" % popt[2], '±', "%.3f" % pcov[2,2]**0.5)
 print('   d =', "%0.3f" % popt[3], '±', "%.3f" % pcov[3,3]**0.5)
+print('   l =', "%0.3f" % popt[4], '±', "%.3f" % pcov[4,4]**0.5)
+print('   m =', "%0.3f" % popt[5], '±', "%.3f" % pcov[5,5]**0.5)
+print('   n =', "%0.3f" % popt[6], '±', "%.3f" % pcov[6,6]**0.5)
