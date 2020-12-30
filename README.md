@@ -52,7 +52,6 @@ So a proper potential to fit the experimental data is:
     \\\!{0} \hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
-The steep curve of $V(x)\neq 0$ perhaps somewhat causes $V(x)$ to resemble a step function.
 
 
 <null>
