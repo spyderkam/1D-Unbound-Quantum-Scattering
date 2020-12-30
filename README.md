@@ -42,6 +42,7 @@ It appears to be some polynomial function. Try fitting $V(x) = ax^3 + bx^2 + cx 
     popt, pcov = curve_fit(func, x, V)
 
 `func(x, *popt)` is then the ydata to plot against $x$.
+
 <img src="https://github.com/spyderkam/1D-Unbound-Scattering/blob/main/Fig2.png" alt="alt text" width="625" height="400">
 
 So a proper potential to fit the experimental data is:
