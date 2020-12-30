@@ -49,7 +49,7 @@ So a proper potential to fit the experimental data is:
 \begin{equation}
   V(x) = \begin{cases}
     ax^3 +bx^2+cx +d \qquad 0 \leq x \leq 1 \\\\\\
-    \\\!{0} \hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
+    \\\!{1.8} \hphantom{x^3 +bx^2+cx +d} \qquad \text{otherwise}
   \end{cases}
 \end{equation}
 
